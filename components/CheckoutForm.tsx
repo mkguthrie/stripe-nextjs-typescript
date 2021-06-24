@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 import CustomDonationInput from '../components/CustomDonationInput'
-import StripeTestCards from '../components/StripeTestCards'
 
 import getStripe from '../utils/get-stripejs'
 import { fetchPostJSON } from '../utils/api-helpers'
@@ -60,7 +59,6 @@ const CheckoutForm = () => {
         currency={config.CURRENCY}
         onChange={handleInputChange}
       />
-      <StripeTestCards />
       <button
         className="checkout-style-background"
         type="submit"
