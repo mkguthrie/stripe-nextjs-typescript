@@ -5,10 +5,10 @@ import CheckoutForm from '../components/CheckoutForm'
 
 const DonatePage: NextPage = () => {
   return (
-    <Layout title="Donate with Checkout | Next.js + TypeScript Example">
+    <Layout title="C&#38;M - Gettin Hitched">
       <div className="page-container">
-        <h1>Donate with Checkout</h1>
-        <p>Donate to our project 💖</p>
+        <h1>The Honeymoon Fund</h1>
+        <p>Nam aliquam et massa eget pellentesque. Ut volutpat sapien ac diam condimentum eleifend. Morbi ultricies tincidunt feugiat. Phasellus rutrum tristique nibh eu porttitor.</p>
         <CheckoutForm />
       </div>
     </Layout>
