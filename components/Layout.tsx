@@ -38,6 +38,19 @@ const Layout = ({
       </header>
       {children}
     </div>
+    <div className="banner">
+      <span>
+        Email questions{' '}
+        <a
+          href="mailto:matthew.k.guthrie@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          here
+        </a>
+        .
+      </span>
+    </div>
   </>
 )
 
